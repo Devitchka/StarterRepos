@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
+	</head>
+	<body>
+	<div id="header"><h1>Ashley Orr</h1>
+	<img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xap1/v/t1.0-9/10846485_10152936328142938_5384578111045039860_n.jpg?oh=17d2f7df2f96b9c1cee96f35afce934d&oe=5535F019&__gda__=1430294092_377bab0b8780fece40203c11106be2e3"/>
+	</div>
+	<div class="left"><h2>Objective:</h2>
+	<p>To find a stable job in the programming field</p>
+	<h3>Experience:</h3>
+	<ul><li>Codecademy.com October 2014-Present</li></ul></div>
+	<div class="right"><h3>Skills</h3>
+	<ul><li>HTML</li>
+	<li>CSS</li>
+	<li>Computer Basics</li></ul>
+	<p>I've had a computer since I was 12 and through trial and error have made my way to the rudimentary knowledge I possess today.</p></div>
+	<div id="footer"><h3>References</h3>
+	<ul><li>Jess Fortier</li>
+	<li>Matt Rushing</li>
+	<li>Ken Posey</li></ul></div>
+	</body>
+</html>
+
+div {
+    border-radius: 5px;
+    color: black;
+    border-style: dashed;
+    border-width: 3px;
+    height: auto;
+    background-color: green;
+    width: 500px;
+}
+img {
+    height: auto;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+    
+#header {
+    position: fixed;
+    z-index: 1;
+    
+}
+.left {
+    float: left;
+    height: auto;
+    width: 500px;
+    position: absolute;
+    top: 300px;
+    }
+.right {
+    float: right;
+    height: auto;
+    width: 500px;
+    position: absolute;
+    right: 500px;
+    top: 75px;
+}
+#footer {
+    float: right;
+    position: absolute;
+    right: 500px;
+    top: 250px;
+}
